@@ -1,0 +1,38 @@
+{
+
+    "output_dir":"checkpoints/T5-small",
+    "overwrite_output_dir":false,
+    "do_train" : true,
+    "do_eval":true,
+    "do_predict":true,
+    "num_train_epochs":60,              
+    "per_device_train_batch_size":4,  
+    "per_device_eval_batch_size":4,   
+    "warmup_steps":500,                
+    "weight_decay":0.01,               
+    "predict_with_generate" : true,
+    "learning_rate": 2.910635913133073e-05,
+    "seed": 24,    
+    
+
+
+
+    "model_name_or_path":"t5-small",
+    "hyper_param_search":false,
+
+
+    "train_file":"data/fetaQA-v1_train.json",
+    "validation_file":"data/fetaQA-v1_dev.json",
+    "test_file":"data/fetaQA-v1_test.json",
+    "summary_column" : "answer",
+    "text_column" : "table_array",
+    "context_column" : "question",
+    "source_prefix" : "summarize: ",
+    "max_source_length" : 512,
+    "max_target_length" : 60,
+    "pad_to_max_length" : true,
+    "linearization_strategy":"simple",
+    "metric_names":["meteor", "bleu","sacrebleu", "bertscore", "bleurt"]
+
+
+}
