@@ -25,7 +25,7 @@ Choose a config json file from `end2end/config`, then
     export CUDA_VISIBLE_DEVICES=0,1,2,3
     python train.py configs/t5-large.json
     ```
-More details about the config setup can be found [here](https://github.com/Yale-LILY/FeTaQA/tree/add_t5/end2end).
+More details about the config setup can be found [here](https://github.com/Yale-LILY/FeTaQA/tree/main/end2end).
 
 ## TAPAS Pipeline Model
 To be released...
