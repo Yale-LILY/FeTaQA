@@ -45,20 +45,13 @@ The FeTaQA dataset is distributed under a
 
 
 ## Citation
-```
-@article{10.1162/tacl_a_00446,
-    author = {Nan, Linyong and Hsieh, Chiachun and Mao, Ziming and Lin, Xi Victoria and Verma, Neha and Zhang, Rui and Kryściński, Wojciech and Schoelkopf, Hailey and Kong, Riley and Tang, Xiangru and Mutuma, Mutethia and Rosand, Ben and Trindade, Isabel and Bandaru, Renusree and Cunningham, Jacob and Xiong, Caiming and Radev, Dragomir},
-    title = "{FeTaQA: Free-form Table Question Answering}",
-    journal = {Transactions of the Association for Computational Linguistics},
-    volume = {10},
-    pages = {35-49},
-    year = {2022},
-    month = {01},
-    abstract = "{Existing table question answering datasets contain abundant factual questions that primarily evaluate a QA system’s comprehension of query and tabular data. However, restricted by their short-form answers, these datasets fail to include question–answer interactions that represent more advanced and naturally occurring information needs: questions that ask for reasoning and integration of information pieces retrieved from a structured knowledge source. To complement the existing datasets and to reveal the challenging nature of the table-based question answering task, we introduce FeTaQA, a new dataset with 10K Wikipedia-based \\{table, question, free-form answer, supporting table cells\\} pairs. FeTaQA is collected from noteworthy descriptions of Wikipedia tables that contain information people tend to seek; generation of these descriptions requires advanced processing that
-                    humans perform on a daily basis: Understand the question and table, retrieve, integrate, infer, and conduct text planning and surface realization to generate an answer. We provide two benchmark methods for the proposed task: a pipeline method based on semantic parsing-based QA systems and an end-to-end method based on large pretrained text generation models, and show that FeTaQA poses a challenge for both methods.}",
-    issn = {2307-387X},
-    doi = {10.1162/tacl_a_00446},
-    url = {https://doi.org/10.1162/tacl\_a\_00446},
-    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00446/1984125/tacl\_a\_00446.pdf},
+```bibtex
+@article{Nan2021FeTaQAFT,
+  title={FeTaQA: Free-form Table Question Answering},
+  author={Nan, Linyong and Hsieh, Chiachun and Mao, Ziming and Lin, Xi Victoria and Verma, Neha and Zhang, Rui and Kryściński, Wojciech and Schoelkopf, Hailey and Kong, Riley and Tang, Xiangru and Mutuma, Mutethia and Rosand, Ben and Trindade, Isabel and Bandaru, Renusree and Cunningham, Jacob and Xiong, Caiming and Radev, Dragomir},
+  journal={Transactions of the Association for Computational Linguistics},
+  year={2022},
+  volume={10},
+  pages={35-49}
 }
 ```
